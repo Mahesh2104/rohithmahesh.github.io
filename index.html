@@ -11,6 +11,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Devicon -->
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -26,15 +28,19 @@
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
+            <button id="theme-toggle" aria-label="Toggle Dark Mode">🌙</button>
         </div>
     </nav>
 
     <!-- Hero Section -->
     <section id="hero" class="hero-section">
         <div class="container hero-content fade-in">
+            <div class="hero-image-container">
+                <img src="profile.jpg" alt="Rohith Maheshwaran K" class="hero-image">
+            </div>
             <p class="greeting">Hello, I'm</p>
             <h1 class="name">ROHITHMAHESHWRAN K</h1>
-            <p class="tagline">MCA Student | Aspiring Software & Web Developer</p>
+            <p class="tagline"><span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
             <div class="cta-buttons">
                 <a href="#projects" class="btn primary-btn">View My Work</a>
                 <a href="#contact" class="btn secondary-btn">Contact Me</a>
@@ -104,37 +110,38 @@
                 <div class="skill-category">
                     <h3>Programming</h3>
                     <ul class="skill-list">
-                        <li>C</li>
-                        <li>Python (Basic)</li>
+                        <li><i class="devicon-c-plain"></i> C</li>
+                        <li><i class="devicon-python-plain"></i> Python</li>
+                        <li><i class="devicon-java-plain"></i> Java</li>
                     </ul>
                 </div>
                 <div class="skill-category">
                     <h3>Web Technologies</h3>
                     <ul class="skill-list">
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
+                        <li><i class="devicon-html5-plain"></i> HTML</li>
+                        <li><i class="devicon-css3-plain"></i> CSS</li>
+                        <li><i class="devicon-javascript-plain"></i> JavaScript</li>
                     </ul>
                 </div>
                 <div class="skill-category">
                     <h3>Backend</h3>
                     <ul class="skill-list">
-                        <li>Node.js</li>
-                        <li>Express.js</li>
+                        <li><i class="devicon-nodejs-plain"></i> Node.js</li>
+                        <li><i class="devicon-express-original"></i> Express.js</li>
                     </ul>
                 </div>
                 <div class="skill-category">
                     <h3>Database</h3>
                     <ul class="skill-list">
-                        <li>MongoDB</li>
-                        <li>SQL</li>
+                        <li><i class="devicon-mongodb-plain"></i> MongoDB</li>
+                        <li><i class="devicon-mysql-plain"></i> SQL</li>
                     </ul>
                 </div>
                 <div class="skill-category">
                     <h3>Tools</h3>
                     <ul class="skill-list">
-                        <li>GitHub</li>
-                        <li>Visual Studio Code</li>
+                        <li><i class="devicon-github-original"></i> GitHub</li>
+                        <li><i class="devicon-vscode-plain"></i> VS Code</li>
                     </ul>
                 </div>
             </div>
